@@ -50,6 +50,6 @@ public class ExAdicao {
         setNumReal1(numReal1);
         setNumReal2(numReal2);
         double soma = numReal1 + numReal2;
-        JOptionPane.showMessageDialog(null, "A soma dos dois números reais é: ");
+        JOptionPane.showMessageDialog(null, String.format("A soma dos dois números reais é: %.2f", soma));
     }
 }

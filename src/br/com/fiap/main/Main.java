@@ -26,7 +26,7 @@ public class Main {
                         lado = Float.parseFloat(auxiliar);
                         auxiliar = JOptionPane.showInputDialog("Dígite o valor da altura");
                         altura = Float.parseFloat(auxiliar);
-                        geo1.calcularArea(lado);
+                        geo1.calcularArea(lado, altura);
                         break;
                     case 3:
                         auxiliar = JOptionPane.showInputDialog("Dígite o valor do raio: ");
