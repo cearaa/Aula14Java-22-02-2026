@@ -6,5 +6,29 @@ public class Geometria {
     private float altura;
     private double raio;
 
-    //Construtores
+    //Construtores ( Alt + insert )
+    public Geometria(){
+    }
+
+    //Get/Set
+    public float getLado() {
+        return lado;
+    }
+    public void setLado(float lado) {
+        this.lado = lado;
+    }
+    public float getAltura() {
+        return altura;
+    }
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+    public double getRaio() {
+        return raio;
+    }
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
+
+    //Métodos da classe
 }
