@@ -1,5 +1,7 @@
 package br.com.fiap.bean;
 
+import javax.swing.*;
+
 public class Geometria {
     //Atributos
     private float lado;
@@ -31,4 +33,15 @@ public class Geometria {
     }
 
     //Métodos da classe
+    public void calcularArea ( float lado){
+        setLado(lado);
+        float area = this.lado * this.lado;
+        JOptionPane.showMessageDialog(null, String.format("Área do QUADRADO: %.2f", area));
+    }
+    public void calcularArea ( float lado, float altura){
+        setLado(lado);
+        setAltura(altura);
+        float area = this.lado * this.altura;
+        JOptionPane.showMessageDialog(null, String.format("Área do RETÂNGULO: %.2f", area));
+    }
 }
