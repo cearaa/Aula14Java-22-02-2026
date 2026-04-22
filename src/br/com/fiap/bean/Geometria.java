@@ -47,6 +47,6 @@ public class Geometria {
     public void calcularArea ( double raio){
         setRaio(raio);
         double area = Math.PI * Math.pow(this.raio, 2);
-        JOptionPane.showMessageDialog(null, String.format("Área do QUADRADO: %.2f, area", area));
+        JOptionPane.showMessageDialog(null, String.format("Área do QUADRADO: %.2f", area));
     }
 }
