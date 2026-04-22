@@ -44,4 +44,9 @@ public class Geometria {
         float area = this.lado * this.altura;
         JOptionPane.showMessageDialog(null, String.format("Área do RETÂNGULO: %.2f", area));
     }
+    public void calcularArea ( double raio){
+        setRaio(raio);
+        double area = Math.PI * Math.pow(this.raio, 2);
+        JOptionPane.showMessageDialog(null, String.format("Área do QUADRADO: %.2f, area", area));
+    }
 }
